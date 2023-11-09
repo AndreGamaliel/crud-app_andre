@@ -19,6 +19,11 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     ],
   },
   {
+    title: "Table",
+    path: "/table",
+    icon: <Icon icon="lucide:table-properties" width={24} height={24} />,
+  },
+  {
     title: "Messages",
     path: "/messages",
     icon: <Icon icon="lucide:mail" width={24} height={24} />,
